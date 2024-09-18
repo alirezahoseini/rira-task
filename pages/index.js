@@ -76,7 +76,7 @@ export default function Home({ data }) {
 
 export async function getStaticProps() {
   try {
-    const res = await fetch(`https://api.navasan.tech/latest/?api_key=freemI6J1T4dRkeMIiskGU2RwazBRAHY`);
+    const res = await fetch(`https://api.navasan.tech/latest/?api_key=freeEdOoDpTLtoxIMmyVJ4tepa8ZFBAe`);
     const resJson = await res.json();
     const usdInfo = resJson.usd_sell
 
